@@ -3,12 +3,16 @@
 }
 body, html{
     scroll-behavior: smooth;
+    background-image: url(img/bg-virina.jpg);
+    background-size: contain;
+    background-attachment: fixed;
 }
 .logo{
     width: 170px;
+    transform: scale(1.1);
 }
 header{
-    background-color: rgb(211, 208, 208);
+    background: linear-gradient(grey, white, grey);
     position: fixed;
     z-index: 10;
     width: 100%;
@@ -26,16 +30,21 @@ header{
     color: rgb(43, 42, 42);
     display: inline-block;
     font-weight: bold;
+    transition: all .2s ease;
 }
 .cont-derecha a{ 
     padding: 20px;
-    transition: all .3s ease;
+    
 }
 .cont-izquierda a{
     padding: 12px;
 }
-.cont-izquierda a:hover, .cont-derecha a:hover{
-    background-color: rgba(187, 187, 187, 0.726);
+.cont-izquierda a:hover{
+    transform: scale(1.1);
+}
+.cont-derecha a:hover{
+    transform: translate(0, 3px);
+    
 }
 .carrusel{
     height: 100vh;
@@ -72,7 +81,7 @@ header{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    box-shadow: 10px 10px 0 rgb(0, 0, 0);
+    box-shadow: 10px 10px 0 rgb(73, 72, 72);
 }
 .izq{
     text-align: center;
