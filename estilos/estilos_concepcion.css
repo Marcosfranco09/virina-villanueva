@@ -1,0 +1,21 @@
+.h-concepcion{
+    background: linear-gradient(rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.507)) ,url(img/fondo-concepcion.jpg);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-concepcion h3{
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px black;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    animation: concepcion 3s 1;
+}
+@keyframes concepcion{
+    0% , 50%{opacity: 0;}
+    50%{opacity: 1;}
+    55%{text-shadow: 0px 0px 15px white;}
+    100%{text-shadow: 0px 0px 0px white;}
+}
