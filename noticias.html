@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ventana -->
+    <title>Noticias | Virina Villanueva</title>
+    <link rel="shortcut icon" href="estilos/img/pngtree-letter-v-icon-png-image_6210719.ico" type="image/x-icon">
+
+    <!-- Estilos, script -->
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="estilos/estilos_home.css">
+    <link rel="stylesheet" href="estilos/estilos_concepcion.css">
+    <script src="static/js/bootstrap.js" defer></script>
+    <script src="script.js"></script>
+
+    <!-- CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="h-contenedor">
+            <div class="cont-izquierda">
+                <a href="index.html"><img src="estilos/img/logo.png" alt="logo-v" class="logo"></a>
+            </div>
+            <div class="cont-derecha">
+                <a href="#"><i class="fa-solid fa-newspaper"></i> &nbsp;Noticias</a>
+                <a href="#"><i class="fa-solid fa-user"></i> &nbsp;Sobre mi</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="h-concepcion">
+            <h3><i class="fa-solid fa-newspaper"></i> NOTICIAS</h3>
+        </div>
+        <div class="cajas">
+            <div class="card-box">
+                <img class="img-card" src="estilos/img/vista_previa.jpg" alt="tercera edad">
+                <p>Asumiendo permanentemente mi comp...</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ver articulo completo
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+
+                                <div class="img-noticia">
+                                    <div id="carouselExample" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="estilos/img/vista_previa.jpg" class="d-block w-100"
+                                                    alt="img-3e">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="estilos/img/img-carrusel2.jpg" class="d-block w-100"
+                                                    alt="img-3e">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="estilos/img/img-carrusel3.jpg" class="d-block w-100"
+                                                    alt="img-3e">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="estilos/img/iimg-carrusel4.jpg" class="d-block w-100"
+                                                    alt="img-3e">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="estilos/img/img-carrusel5.jpg" class="d-block w-100"
+                                                    alt="img-3e">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExample" data-bs-slide="prev">
+                                            <span aria-hidden="true"><i class="fa-solid fa-arrow-right fa-rotate-180"
+                                                    style="color: #000000;"></i></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExample" data-bs-slide="next">
+                                            <span aria-hidden="true"><i class="fa-solid fa-arrow-right"
+                                                    style="color: #000000;"></i></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <p>Asumiendo permanentemente mi compromiso, con gratitud y responsabilidad con las
+                                    personas de la tercera edad, que tanto han aportado a nuestras vidas y a nuestra
+                                    comunidad. Mi trabajo como parlamentaria representando a todos los norteños será
+                                    siempre velar por el cumplimiento de las leyes que protejan a nuestros abuelitos y
+                                    abuelitas, dando todo lo mejor de mi persona por mejorar su calidad de vida,
+                                    mediante los programas de protección para este sector. Comparto las fotos de la
+                                    distribución de tarjetas, que será de gran ayuda para el manejo cotidiano de ellos.
+                                </p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box">
+                <img src="estilos/img/hospital-1.jpg" alt="hospital" class="img-card">
+                <p>Con gran satisfacción y alegría celebro este import...</p>
+
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    Ver articulo completo
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+
+                                <div class="img-noticia">
+                                    <div id="carouselExample1" class="carousel slide">
+                                        <div class="carousel-inner">
+
+                                            <div class="carousel-item active">
+                                                <img src="estilos/img/hospital-1.jpg" class="d-block w-100"
+                                                    alt="img-3e">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="estilos/img/hospital-2.jpg" class="d-block w-100"
+                                                    alt="img-3e">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="estilos/img/hospital-3.jpg" class="d-block w-100"
+                                                    alt="img-3e">
+                                            </div>
+
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExample1" data-bs-slide="prev">
+                                            <span aria-hidden="true"><i class="fa-solid fa-arrow-right fa-rotate-180"
+                                                    style="color: #000000;"></i></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExample1" data-bs-slide="next">
+                                            <span aria-hidden="true"><i class="fa-solid fa-arrow-right"
+                                                    style="color: #000000;"></i></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <p>Con gran satisfacción y alegría celebro este importante convenio firmado entre el
+                                    Hospital Regional de Concepción, el Instituto Nacional del Cáncer y la Primera
+                                    Región Sanitaria cuyo objetivo es la lucha contra el flagelo del Cancer, mediante su
+                                    concientización, la prevención y la detección temprana de esta enfermedad. La salud
+                                    de nuestro querido departamento de Concepción es fundamental para seguir trabajando
+                                    juntos por un futuro mejor. </p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box">
+                <img src="estilos/img/charla-3.jpg" alt="hospital" class="img-card">
+                <p>Hoy nuevamente compartí mi día de gobier...</p>
+
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    Ver articulo completo
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+
+                                <div class="img-noticia">
+                                    <div id="carouselExample2" class="carousel slide">
+                                        <div class="carousel-inner">
+
+                                            <div class="carousel-item active">
+                                                <img src="estilos/img/charla-3.jpg" class="d-block w-100"
+                                                    alt="img-3e">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="estilos/img/charla-2.jpg" class="d-block w-100"
+                                                    alt="img-3e">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="estilos/img/charla-1.jpg" class="d-block w-100"
+                                                    alt="img-3e">
+                                            </div>
+
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExample2" data-bs-slide="prev">
+                                            <span aria-hidden="true"><i class="fa-solid fa-arrow-right fa-rotate-180"
+                                                    style="color: #000000;"></i></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExample2" data-bs-slide="next">
+                                            <span aria-hidden="true"><i class="fa-solid fa-arrow-right"
+                                                    style="color: #000000;"></i></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <p>Hoy nuevamente compartí mi día de gobierno con la gente que me necesita, con aquellas personas que depositan su confianza en mí. Escuché sus necesidades, sus ideas y proyectos, cumpliendo mi rol de servidora del pueblo. Soy una mujer de trabajo, de lucha e incansable en mi compromiso de servir a la gente. Desde niña aprendí a enfrentar adversidades, y hoy quiero resaltar mi gratitud y entrega absoluta para no defraudarlos en esta importante responsabilidad. Mi objetivo es representarles y luchar cerca de ustedes por el bien común. Son ustedes quienes me dan la fuerza para seguir trabajando por nuestro querido país. </p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

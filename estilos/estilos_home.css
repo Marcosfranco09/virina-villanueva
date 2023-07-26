@@ -4,8 +4,9 @@
 body, html{
     scroll-behavior: smooth;
     background-image: url(img/bg-virina.jpg);
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .logo{
     width: 170px;
