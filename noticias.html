@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
+    <!-- MetaDatos-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Ventana -->
-    <title>Noticias | Virina Villanueva</title>
+    <title>Virina Villanueva | Noticias</title>
     <link rel="shortcut icon" href="estilos/img/pngtree-letter-v-icon-png-image_6210719.ico" type="image/x-icon">
 
     <!-- Estilos, script -->
@@ -25,9 +26,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <header>
         <div class="h-contenedor">
             <div class="cont-izquierda">
@@ -35,22 +40,160 @@
             </div>
             <div class="cont-derecha">
                 <a href="#"><i class="fa-solid fa-newspaper"></i> &nbsp;Noticias</a>
-                <a href="#"><i class="fa-solid fa-user"></i> &nbsp;Sobre mi</a>
+                <a href="sobremi.html"><i class="fa-solid fa-user"></i> &nbsp;Sobre mi</a>
             </div>
         </div>
     </header>
+
     <main>
+
         <div class="h-concepcion">
-            <h3><i class="fa-solid fa-newspaper"></i> NOTICIAS</h3>
+            <h3> NOTICIAS</h3>
         </div>
+
         <div class="cajas">
+            <div class="principal">
+                <div class="text-principal">
+                    <a href="https://www.hoy.com.py/nacionales/diputada-virina-la-educacion-que-recibi-no-quiero-para-ningun-otro-nino" target="_blank"><img src="estilos/img/hoy.png" alt="hoy"></a>
+                    <div>
+                        <h3>Diputada Virina: “La educación que recibí, no quiero para ningún otro niño”</h3>
+                        <p>La legisladora de Concepción Virina Villanueva pidió disculpas a los grandes oradores de la Cámara que la criticaron por su lectura. Reveló las precarias condiciones en las que estudió y dijo que no quiere para ningún niño, la educación que ella recibió.</p>
+                    </div>
+                </div>
+                
+                <img src="estilos/img/noticia-1.jpg" alt="noticia">
+            </div>
+            
+
+            <div class="card-box">
+                <img class="img-card" src="estilos/img/iglesia-1.jpg" alt="tercera edad">
+                <p>Como parte de las acciones para desarrollar los proy...</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    Ver articulo completo
+                </button> <br>
+                <span>27/07/2023</span>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+
+                                <div class="img-noticia">
+                                    <div id="carouselExample3" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="estilos/img/iglesia-1.jpg" class="d-block w-100" alt="img-3e">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="estilos/img/iglesia-2.jpg" class="d-block w-100" alt="img-3e">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="estilos/img/iglesia-3.jpg" class="d-block w-100" alt="img-3e">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExample3" data-bs-slide="prev">
+                                            <span aria-hidden="true"><i class="fa-solid fa-arrow-right fa-rotate-180"
+                                                    style="color: #000000;"></i></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExample3" data-bs-slide="next">
+                                            <span aria-hidden="true"><i class="fa-solid fa-arrow-right"
+                                                    style="color: #000000;"></i></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <p>Como parte de las acciones para desarrollar los proyectos que queremos implementar
+                                    para mejorar las condiciones del servicio de salud para la tercera edad, la comisión
+                                    de la Familia y la Tercera Edad, en la cual pertenezco, hemos visitado el Hospital
+                                    Geriátrico Prof. Gerardo Buongermini del IPS para recabar información de las
+                                    necesidades del recinto y de los pacientes, conversando con el personal de blanco,
+                                    para que juntos podemos dialogar e identificar las acciones fundamentales que
+                                    necesita el hospital para mejorar la atención.
+                                </p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-box">
+                <img class="img-card" src="estilos/img/musica-1.jpg" alt="tercera edad">
+                <p>El día de ayer nuestro equipo estuvo recabando informac...</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    Ver articulo completo
+                </button> <br>
+                <span>27/07/2023</span>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+
+                                <div class="img-noticia">
+                                    <div id="carouselExample4" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="estilos/img/musica-1.jpg" class="d-block w-100" alt="img-3e">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="estilos/img/musica-2.jpg" class="d-block w-100" alt="img-3e">
+                                            </div>
+
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExample4" data-bs-slide="prev">
+                                            <span aria-hidden="true"><i class="fa-solid fa-arrow-right fa-rotate-180"
+                                                    style="color: #000000;"></i></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExample4" data-bs-slide="next">
+                                            <span aria-hidden="true"><i class="fa-solid fa-arrow-right"
+                                                    style="color: #000000;"></i></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <p>El día de ayer nuestro equipo estuvo recabando información en el hogar de ancianos
+                                    Mons. Emilio Sosa, para desarrollar un mejor enfoque de las necesidades de la
+                                    tercera edad que viven en ese hogar y así diseñar proyectos acordes a ellos, además
+                                    se tuvo la dicha de compartir un agasajo por el Día de los Abuelitos, lo cual
+                                    reconocemos aplaudiendo la iniciativa de los organizadores y nos unimos a dicha
+                                    celebración. Nuestro compromiso con este sector es arduo y esperamos contribuir con
+                                    nuestro trabajo para lograr una mejor calidad de vida para los abuelitos que tanto
+                                    merecen ser acompañados.
+                                </p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="card-box">
                 <img class="img-card" src="estilos/img/vista_previa.jpg" alt="tercera edad">
                 <p>Asumiendo permanentemente mi comp...</p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Ver articulo completo
-                </button>
+                </button> <br>
+                <span>22/07/2023</span>
 
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -114,13 +257,15 @@
                     </div>
                 </div>
             </div>
+
             <div class="card-box">
                 <img src="estilos/img/hospital-1.jpg" alt="hospital" class="img-card">
                 <p>Con gran satisfacción y alegría celebro este import...</p>
 
                 <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                     Ver articulo completo
-                </button>
+                </button> <br>
+                <span>21/07/2023</span>
 
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -176,13 +321,15 @@
                     </div>
                 </div>
             </div>
+
             <div class="card-box">
                 <img src="estilos/img/charla-3.jpg" alt="hospital" class="img-card">
                 <p>Hoy nuevamente compartí mi día de gobier...</p>
 
                 <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                     Ver articulo completo
-                </button>
+                </button><br>
+                <span>20/07/2023</span>
 
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -196,16 +343,13 @@
                                         <div class="carousel-inner">
 
                                             <div class="carousel-item active">
-                                                <img src="estilos/img/charla-3.jpg" class="d-block w-100"
-                                                    alt="img-3e">
+                                                <img src="estilos/img/charla-3.jpg" class="d-block w-100" alt="img-3e">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="estilos/img/charla-2.jpg" class="d-block w-100"
-                                                    alt="img-3e">
+                                                <img src="estilos/img/charla-2.jpg" class="d-block w-100" alt="img-3e">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="estilos/img/charla-1.jpg" class="d-block w-100"
-                                                    alt="img-3e">
+                                                <img src="estilos/img/charla-1.jpg" class="d-block w-100" alt="img-3e">
                                             </div>
 
                                         </div>
@@ -223,7 +367,14 @@
                                         </button>
                                     </div>
                                 </div>
-                                <p>Hoy nuevamente compartí mi día de gobierno con la gente que me necesita, con aquellas personas que depositan su confianza en mí. Escuché sus necesidades, sus ideas y proyectos, cumpliendo mi rol de servidora del pueblo. Soy una mujer de trabajo, de lucha e incansable en mi compromiso de servir a la gente. Desde niña aprendí a enfrentar adversidades, y hoy quiero resaltar mi gratitud y entrega absoluta para no defraudarlos en esta importante responsabilidad. Mi objetivo es representarles y luchar cerca de ustedes por el bien común. Son ustedes quienes me dan la fuerza para seguir trabajando por nuestro querido país. </p>
+                                <p>Hoy nuevamente compartí mi día de gobierno con la gente que me necesita, con aquellas
+                                    personas que depositan su confianza en mí. Escuché sus necesidades, sus ideas y
+                                    proyectos, cumpliendo mi rol de servidora del pueblo. Soy una mujer de trabajo, de
+                                    lucha e incansable en mi compromiso de servir a la gente. Desde niña aprendí a
+                                    enfrentar adversidades, y hoy quiero resaltar mi gratitud y entrega absoluta para no
+                                    defraudarlos en esta importante responsabilidad. Mi objetivo es representarles y
+                                    luchar cerca de ustedes por el bien común. Son ustedes quienes me dan la fuerza para
+                                    seguir trabajando por nuestro querido país. </p>
 
                             </div>
                             <div class="modal-footer">
@@ -233,12 +384,98 @@
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div class="card-box">
+                <img src="estilos/img/mesa-1.jpg" alt="hospital" class="img-card">
+                <p>Mi compromiso con la tercera edad y la familia está en mar...</p>
+
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                    Ver articulo completo
+                </button><br>
+                <span>19/07/2023</span>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+
+                                <div class="img-noticia">
+                                    <div id="carouselExample5" class="carousel slide">
+                                        <div class="carousel-inner">
+
+                                            <div class="carousel-item active">
+                                                <img src="estilos/img/mesa-1.jpg" class="d-block w-100" alt="img-3e">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="estilos/img/mesa-2.jpg" class="d-block w-100" alt="img-3e">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="estilos/img/mesa-3.jpg" class="d-block w-100" alt="img-3e">
+                                            </div>
+
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExample5" data-bs-slide="prev">
+                                            <span aria-hidden="true"><i class="fa-solid fa-arrow-right fa-rotate-180"
+                                                    style="color: #000000;"></i></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExample5" data-bs-slide="next">
+                                            <span aria-hidden="true"><i class="fa-solid fa-arrow-right"
+                                                    style="color: #000000;"></i></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <p>Mi compromiso con la tercera edad y la familia está en marcha, hemos constituido una
+                                    comisión que busca atender las necesidades de estos sectores tan vulnerables en
+                                    nuestro pais. Este equipo de trabajo está constituido por los siguientes colegas,
+                                    como Presidente: La Diputada Johana Vega (ANR - Central), como Vicepresidente: Mi
+                                    persona Diputada Virina Villanueva (ANR - Concepción), como Secretario: El Diputado
+                                    Ariel Villagra (PLRA - San Pedro), nuestras reuniones de trabajo serán los lunes
+                                    9:00hs. Honrada de poder servir a mi país con mi rol de parlamentaria para poder
+                                    direccionar los proyectos que beneficien a nuestra sociedad y así podamos construir
+                                    mejores condiciones de vida para un futuro mejor. </p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-dark ver-mas">
+                <i class="fa-sharp fa-solid fa-chevron-right fa-rotate-90" style="color: #ffffff;"></i>
+            </button>
+
         </div>
 
     </main>
-    <footer>
 
+    <footer>
+        <div class="principal-footer">
+
+            <h5>Mas sobre mi!</h5>
+
+            <hr style="margin-top: 10px;margin-bottom: 10px;">
+
+            <div class="footer">
+                <a href="https://www.facebook.com/profile.php?id=100082832913792" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook </a>
+                <a href="https://www.municipios.gov.py/sanalfredo/datos-del-intendente/" target="_blank"><i class="fa-solid fa-folder"></i> Govierno Paraguay</a>
+                <a href="https://www.instagram.com/vvirina2023/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            </div>
+
+            <hr style="margin-top: 10px;margin-bottom: 10px;">
+
+            <p><i class="fa-solid fa-location-dot"></i> Concepcion | Paraguay</p>
+            
+        </div>
+        
     </footer>
 </body>
 
