@@ -1,11 +1,4 @@
-.h-concepcion{
-    background: linear-gradient(rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.507)) ,url(img/fondo-concepcion.jpg);
-    height: 100%;
-    margin-top: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .h-concepcion h3{
     color: white;
     font-weight: bold;
@@ -21,7 +14,9 @@
     100%{text-shadow: 0px 0px 0px white;}
 }
 .cajas{
-    margin: 50px 80px;
+    margin: 90px 80px;
+}
+.boton{
     text-align: center;
 }
 .principal{
@@ -62,7 +57,6 @@
 .card-box span{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 900;
-    
 }
 .img-card{
     width: 100%;
