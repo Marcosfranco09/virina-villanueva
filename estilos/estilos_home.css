@@ -3,7 +3,7 @@
 }
 body, html{
     scroll-behavior: smooth;
-    background-image: url(img/bg-virina.jpg);
+    background-color: beige;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -116,12 +116,12 @@ header{
 }
 footer{
     background: linear-gradient(to left, rgb(71, 70, 70), rgb(63, 62, 62));
-    height: 30vh;
     margin-top: 70px;
     box-shadow: 0px 0px 15px black;
     padding-top: 10px;
     font-family: 'Montserrat', sans-serif;
     padding-top: 35px;
+    padding-bottom: 20px;
 }
 .principal-footer{
     font-family: 'Montserrat', sans-serif;
@@ -137,7 +137,10 @@ footer{
     text-decoration: none;
     color: rgb(185, 185, 185);
     display: inline-block;
-    margin: 10px 100px;
+    margin: 10px 10%;
+}
+.principal-footer p{
+    margin-bottom: 0;
 }
 .footer a:hover{
     text-decoration: underline;
