@@ -1,0 +1,37 @@
+main{
+    margin-top: 10vh;
+}
+.historia{
+    margin: 100px 80px;
+    text-align: center;
+}
+.historia p {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.historia h1{
+    font-weight: bold;
+}
+.foto-historia{
+    width: 25%;
+    object-fit: cover;
+    float: left;
+    margin: 20px 20px;
+    border: black 1px solid;
+    box-shadow: 0px 0px 5px black;
+}
+.float-right{
+    width: 35%;
+    object-fit: cover;
+    display: inline-block;
+    margin: 20px 20px;
+    border: black 1px solid;
+    box-shadow: 0px 0px 5px black;
+}
+.final{
+    display: flex;
+    margin-top: 0px;
+}
+.final p {
+    margin-top: 0;
+}
